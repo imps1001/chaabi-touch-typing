@@ -180,7 +180,7 @@ const wordCounter = (str) =>{
         </div>
           <h1 className="py-3 font-bold text-xl uppercase"> Welcome to Chaabi Typing Test </h1>
           <h2 id="msg" >{Msg} </h2>
-          <textarea id="mywords" className="py-4 border-solid rounded-md border-2 border-blue-500 bg-gray-600 text-white" cols="100" rows="5" placeholder="Start typing"></textarea>
+          <textarea id="mywords" className="py-4 border-solid rounded-md border-2 border-blue-500 bg-gray-600 text-white" cols="100" rows="2" placeholder="Start typing"></textarea>
           <br></br>
           <button id="btn" onClick={handleEvent} className="mainbtn rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm 
           hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">{mode}</button>
